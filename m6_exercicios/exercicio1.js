@@ -4,7 +4,7 @@
 */
 
 function cumprimentar(nome) {
-    return `Olá, ${nome}!`
+  return `Olá, ${nome}!`;
 }
 
-console.log(cumprimentar('Yago'));
+console.log(cumprimentar("Yago"));
