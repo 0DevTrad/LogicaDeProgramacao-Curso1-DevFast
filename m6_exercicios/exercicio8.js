@@ -4,11 +4,7 @@
 */
 
 function multiplicar(n1, n2) {
-  if (n1 >= 0 && n2 >= 0) {
-    return Math.imul(n1, n2);
-  } else {
-    return 0;
-  }
+  return n1 >= 0 && n2 >= 0 ? Math.imul(n1, n2) : 0;
 }
 
 console.log(multiplicar(10, 5)); // 50
